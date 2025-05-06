@@ -1,4 +1,4 @@
-import LinkButton from "./assets/components/linkbutton";
+import LinkButton from "./Linkbutton";
 
 function RootMenu() {
     return (
