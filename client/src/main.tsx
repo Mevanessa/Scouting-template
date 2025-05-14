@@ -19,7 +19,7 @@ const router = createBrowserRouter([
           },
           {
               path: 'PATHNAMEHERE',
-              element: <FILENAMEHERE />,
+              element: < />,
           },
          //add more path & element per page you want to route to
         /**path is what is mentioned when defining link for LinkButton */

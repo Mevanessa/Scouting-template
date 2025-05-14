@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npm run start"
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace client"
   },
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "repository": {
     "type": "git",
     "url": "Scouting-template"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react-router-dom": "^7.6.0"
+  }
 }
